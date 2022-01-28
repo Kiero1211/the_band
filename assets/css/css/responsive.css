@@ -1,0 +1,100 @@
+/* Pc */
+@media (min-width:64em){
+
+}
+/* Tablet & Mobile */
+@media (max-width: 63.9375em){
+    .btn{
+        padding: 16px 19px;
+    }
+    .contact-input .row input {
+        padding: 15px;
+        font-size: 16px;
+    }
+    .contact-submit-btn{
+        font-size: 16px;
+    }
+    .social-section a{
+        font-size: 28px;
+        margin: 0 8px;
+    }
+    .footer-desc a{
+        padding: 8px 0;
+        display: inline-block;
+    }
+    .contact-inf {
+        line-height: 2;
+    }
+}
+/* Tablet */
+@media (min-width:46.25em) and (max-width:63.9375em){
+
+}
+/* mobile */
+@media (max-width:46.1875em){
+    .s-mt-8{
+        margin-top: 8px;
+    }
+    .s-mt-16{
+        margin-top: 16px;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav {
+        display: block;
+    }
+    #nav li {
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: #fff !important;
+    }
+    #nav .subnav li{
+        padding: 0 41px;
+        width: auto;
+    }
+    .search-header{
+        display: none;
+    }
+    #header .menu-header{
+        display: block;
+    }
+    .s-full-width,
+    .s-col-full{
+        width: 100%;
+    }
+    .content-section{
+        margin: 0;
+    }
+    .content-section .member-img{
+        width: 60%;
+    }
+    .content-section .ticket-slots{
+        padding: 0 8px;
+    }
+    .place-item{
+        padding: 0;
+    }
+    .contact-input{
+        margin-top: 32px;
+    }
+    .contact-inf a{
+        color: #0707ee;
+        opacity: 0.7;
+    }
+    .contact-inf a:hover{
+        opacity: 1;
+    }
+    .place-list{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}
